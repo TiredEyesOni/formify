@@ -166,7 +166,7 @@ export const forgotPassword = async (req, res) => {
     text: "reset your password",
     html: `
         <h2>Hey ${isExisting.fullName} click on the link to reset your password :)</h2>
-        <a href="">Reset your password</a>
+        <a href=https://formify-7dec.vercel.app/reset-password?token=${result.token}">Reset your password</a>
     `,
   };
 
