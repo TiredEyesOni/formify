@@ -10,7 +10,7 @@ dotenv.config();
 const privateKey = process.env.PRIVATE_KEY;
 
 export const createForm = (req, res) => {
-  const { formName } = rq.body;
+  const { formName } = req.body;
 
   const token = req.cookies["access_token"];
 
