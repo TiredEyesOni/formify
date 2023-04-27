@@ -13,7 +13,7 @@ const port = process.env.PORT || 6000;
 // global middlewares
 app.use(
   cors({
-    origin: "https://formify-7dec.vercel.app/",
+    origin: "https://formify-7dec.vercel.app",
     credentials: true,
   })
 );
