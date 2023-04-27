@@ -11,7 +11,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Configure = ({ formId, isDark, history }) => {
-  const endPoint = `http://localhost:5173/f/${formId}`;
+  const endPoint = `https://formify-7dec.vercel.app/f/${formId}`;
 
   const [placeholder, setPlaceholder] = useState("");
   const [formName, setFormName] = useState("");

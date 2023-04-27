@@ -102,7 +102,7 @@ const Dashboard = ({ isDark, ...props }) => {
           onRequestClose={() => setModalIsOpen(false)}
           closeTimeoutMS={200}
           className={`absolute top-2/4 left-2/4 transform -translate-x-2/4 -translate-y-2/4 rounded-2xl flex z-50 flex-col justify-center items-center h-64 w-80 py-1 bg-white text-black space-y-5 ${
-            isDark ? `bg-myblack text-white` : ``
+            isDark ? `bg-black text-white` : ``
           }`}
           overlayClassName="overlay"
         >
